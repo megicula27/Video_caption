@@ -1,5 +1,3 @@
-// VideoPlayback.tsx
-
 import React, { useEffect, useRef } from "react";
 
 interface Caption {
