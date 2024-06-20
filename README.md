@@ -1,40 +1,57 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Video Caption App
+
+This web application allows users to add captions to a video by specifying timestamps. It provides a simple interface for entering captions and synchronizing them with the video playback.
+
+## Documentation
+
+- https://drive.google.com/file/d/1GKAszR5wLqyK4F8p2Tc42hYj6TJLcI9x/view?usp=sharing
+
+## Features
+
+- **Video Playback**: Users can enter a URL to a hosted video or use a preloaded sample video.
+- **Caption Management**: Users can add captions with specified start and end times.
+- **Interactive UI**: The video player allows pausing and resuming playback, synchronized with the entered captions.
+
+## Sample Video
+
+The application includes a sample video named "sample" which is stored in the public folder and _please only use this name in the search field_. To view this sample, navigate to `/video/sample` in the deployed application. If you are running the application locally, ensure that the sample video is accessible at `http://localhost:3000/video/sample`.
+
+## Deployment
+
+The application is deployed on Vercel and can be accessed [here](https://video-caption-rho.vercel.app/).
+
+## Technologies Used
+
+- React.js
+- Next.js
+- TypeScript
+- MongoDB (for video storage)
+- Tailwind CSS (for styling)
+- React Hot Toast (for notifications)
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/megicula27/Video_caption.git
+   cd Video_caption
+
+   ```
+
+2. Install dependencies:
+
+npm install
+
+3. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open http://localhost:3000 in your browser to view the application. To view the sample  
+   video, navigate to http://localhost:3000/video/sample.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# Video_caption
->>>>>>> a7314aa811faa1408534cd004e1de3fcb4bbbcf0
+Contributions are welcome! Please fork the repository and create a pull request with your improvements.

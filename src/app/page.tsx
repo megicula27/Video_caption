@@ -21,7 +21,7 @@ const VideoSearch: React.FC = () => {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Enter video name"
+            placeholder="Enter video name: use 'sample' for demo"
             value={videoName}
             onChange={(e) => setVideoName(e.target.value)}
             className="block w-full mt-1 px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:border-blue-500"
